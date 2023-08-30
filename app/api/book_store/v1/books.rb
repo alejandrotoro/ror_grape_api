@@ -8,7 +8,15 @@ module BookStore
         desc 'Return list of books'
         get do
           books = Book.all
-          present books
+          present books, with: BookStore::Entities::Book
+        end
+
+        desc 'Return a specific book'
+        route_param :id do
+          get do
+          book = Book.find(params[:id])
+          present book, with: BookStore::Entities::Book
+          end
         end
       end
     end
