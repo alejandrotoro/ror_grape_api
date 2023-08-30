@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Following this tutorial:
+Step 1: <https://medium.com/@clementrollon/build-a-basic-api-with-grape-api-grape-entity-part-1-5d5fa1cf38db>
+Step 2: <https://medium.com/@clementrollon/build-a-basic-api-with-grape-api-grape-entity-part-2-25ed0d22dfb7>
+Step 3: <https://medium.com/@clementrollon/build-a-basic-api-with-grape-api-grape-entity-part-3-c186dda08938>
